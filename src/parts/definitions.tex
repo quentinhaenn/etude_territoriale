@@ -1,0 +1,55 @@
+Afin de bien cerner les différents indicateurs mis en avant par les précédentes études et leur impact sur la notre il convient de les définir.
+
+\subsection{Définitions sémantiques}
+
+\begin{definition}[Salaire équivalent temps plein (EQTP)]\label{def:salaire-EQTP}
+    Le salaire en équivalent temps plein (EQTP) est un salaire converti à un temps plein pendant toute l'année, quel que soit le volume de travail effectif. Par exemple, pour un agent ayant occupé un poste de travail pendant six mois à 80 \% et ayant perçu un total de 10 000 euros, le salaire en EQTP est de 10 000/(0,5*0,8) = 25 000 euros par an. 
+
+Pour calculer le salaire moyen en EQTP ou sa distribution, tous les postes y compris les postes à temps partiel sont pris en compte au prorata de leur volume de travail effectif (soit 0,5*0,8=0,4 EQTP dans l'exemple précédent). 
+\end{definition}
+
+\begin{definition}[Revenu disponible]\label{def:revenu-disponible}
+Le revenu disponible est le revenu à la disposition du ménage pour consommer et épargner. Il comprend les revenus d'activité nets des cotisations sociales, les indemnités de chômage, les retraites et pensions, les revenus du patrimoine (fonciers et financiers) et les autres prestations sociales perçues, nets des impôts directs.
+
+Ces derniers incluent l'impôt sur le revenu, la taxe d’habitation, la contribution sociale généralisée – CSG –, contribution à la réduction de la dette sociale – CRDS – et les prélèvements sociaux sur les revenus du patrimoine. Il comprend une partie du solde des transferts inter ménages. 
+\end{definition}
+
+\begin{definition}[Niveau de vie]\label{def:niveau-vie}
+    Le niveau de vie est égal au revenu disponible du ménage divisé par le nombre d'unités de consommation (UC). Le niveau de vie est donc le même pour tous les individus d'un même ménage. Le niveau de vie correspond à ce qu'Eurostat nomme \og revenu disponible équivalent \fg. 
+
+Les unités de consommation sont généralement calculées selon l'échelle d'équivalence dite de l'OCDE modifiée qui attribue 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans.
+\end{definition}
+
+\begin{definition}[Loyer équivalent par commune]\label{def:loyer-eq-commune}
+Loyer moyen par commune déterminé par une étude de l'Agence Natione pour l'information sur le Logement (ANIL).
+\end{definition}
+
+\begin{definition}[Loyer moyen par département]\label{def:loyer-moyen-departement}
+    Loyer obtenu en moyennant tous les loyers des communes d'un même département.
+\end{definition}
+
+Bien évidemment cette dernière définition comporte un certain nombre de problèmes, notamment qu'elle demeure très sensible aux extrêmes. Cette sensibilité se ressent particulièrement dans les départements où une grande agglomération concentre les prix les plus élevés. Afin de quantifier cette dépendance aux extrêmes un nouvel indicateur sera défini. 
+
+\subsection{Définitions mathématiques}
+
+\begin{definition}[Reste à vivre moyen à partir du SMEQTP]
+    En partant des \cref{def:salaire-EQTP,def:revenu-disponible}, il est possible de calculer un reste à vivre. On note $\overline{R_{EQTP}}$ le reste à vivre moyen à partir du salaire moyen EQTP $\overline{S_{EQTP}}$ et du loyer moyen mensuel retenu pour le calcul $\overline{L}$
+    \begin{equation}
+        \overline{\mathrm{R}_{EQTP}} = \overline{\mathrm{S}_{EQTP}} - \overline{L}
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Reste à vivre à partir du niveau de vie médian]
+    En se basant cette fois sur les \cref{def:niveau-vie,def:revenu-disponible}, nous pouvons calculer un second reste à vivre, plus précis cette fois. En reprenant les notations précédentes et en introduisant $\hat{N}$ le niveau de vie médian, nous obtenons :
+    \begin{equation}
+        \hat{R_{N}} = \hat{N} - \overline{L}
+    \end{equation}
+\end{definition}
+
+\begin{definition}[Reste à vivre à partir d'un salaire fixe]
+    À partir du même salaire net il est possible d'exacerber les inégalités territoriales. Partant de ce principe on calcule donc un dernier reste à vivre à partir d'un salaire fixe de 2400 \euro \,net de charges.
+    \begin{equation}
+        R_{2400} = 2400 - \overline{L} - I(2400)
+    \end{equation}
+    Où $I(x)$ est la valeur des impôts sur le revenu prélevé à la source pour un revenu $x$.
+\end{definition}

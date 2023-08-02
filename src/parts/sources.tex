@@ -1,0 +1,37 @@
+La description complète des sources de données est fournie dans cette sections. Les sources principales sont l'INSEE et l'ANIL qui nous permettent de récupérer 4 fichiers décrivant les salaires, niveaux de vie médian et loyers d'appartement et maison. 
+
+\subsection{Données INSEE}
+
+Les données provenant de l'INSEE décrivent le salaire moyen et le niveau de vie médian par département. Un exemple des données récupérées est donné par les \cref{table:niv-vie,table:salaire-EQTP}. Ces données sont très simples et ne comportent que 3 colonnes, qui s'expliquent naturellement au regard des définitions précédentes.
+
+\begin{table}[h]
+    \centering
+    \input{tables/niveau_vie.tex}
+    \caption{Extrait des données INSEE concernant le niveau de vie médian par département\label{table:niv-vie}}
+\end{table}
+
+
+\begin{table}[h]
+    \centering
+    \input{tables/salaire_tp.tex}
+    \caption{Extrait des données INSEE concernant le salaire moyen EQTP par département\label{table:salaire-EQTP}}
+\end{table}
+
+Nous pouvons maintenant étudier les données de l'ANIL, qui sont autrement plus complexes.
+
+\subsection{Données ANIL}
+
+Les données ANIL sont à disposition sur le site OpenData du gouvernement français. Nous récupérons ici les résultats de leur étude sur les loyers moyens par commune (INSERER LIEN). La notice explicative de leur méthodologie peux se trouver ICI pour plus d'explications. Il convient de noter également les limites qu'ils ont eux même inclus dans leur étude et leur notice. 
+
+Les données sont établies pour trois types de biens immobiliers distincts :
+\begin{enumerate}
+    \item Les appartements de 1-2 pièces, avec une superficie typique de 37m$^2$
+    \item Les appartements de 3 pièces et plus, avec une superficie typique de 72m$^2$
+    \item Les maisons, avec une superficie typique de 92m$^2$
+\end{enumerate}
+
+Il est à noter que les appartements sont également regroupés sous une même appellation qui regroupe tous les types d'appartement, avec une surface typique de 52m$^2$.
+
+Tous les indicateurs de loyers ont été établis pour des biens non meublés, et sont fournis charges comprises.
+
+Un extrait des données est fourni par les 

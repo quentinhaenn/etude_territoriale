@@ -1,0 +1,69 @@
+\documentclass[a4paper, french, 11pt]{elsarticle}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{eurosym}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[noabbrev]{cleveref}
+
+\newdefinition{definition}{Définition}
+
+\begin{document}
+
+\begin{frontmatter}
+
+    \title{Une étude de l'impact du loyer sur le reste à vivre français à l'échele départementale}
+\author[1]{Quentin Haenn\corref{cor1}}
+\ead{quentin.haenn@ensma.fr}
+\ead[url]{https://github.com/quentinhaenn}
+
+\cortext[cor1]{Joindre les auteurs}
+
+\affiliation[1]{organization={LIAS Laboratory},
+    addressline={1 Av. Clément Ader},
+    postcode={86360},
+    city={Chasseneuil-du-Poitou},
+    country={France}
+}
+
+\begin{abstract}
+    À travers cette étude j'essaie de déterminer à quel point la situation géographique peut être un frein à la vie des ménages au travers de l'impact du loyer sur le reste à vivre de ces derniers. Cette étude permet ainsi d'étendre les études menées sur le pouvoir d'achat, en raffinant à l'échelle départementale afin de gommer les effets des extrêmes.
+\end{abstract}
+
+\begin{keyword}
+    statistiques locales \sep reste à vivre \sep France \sep département \sep inégalités \sep logement
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Introduction}
+
+\input{parts/intro.tex}
+
+\section{Définitions}
+
+\input{parts/definitions.tex}
+
+\section{Sources}
+
+\input{parts/sources.tex}
+
+\section{Résultats}
+
+\input{parts/resultats.tex}
+
+\section{Limites}
+
+\input{parts/limites.tex}
+
+\section{Conclusion}
+
+\input{parts/conclusion.tex}
+
+
+\end{document}

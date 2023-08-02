@@ -1,0 +1,599 @@
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2023.6.5)  25 JUL 2023 13:17
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**/home/haenn/Documents/etude_territoriale/src/etude.tex
+(/home/haenn/Documents/etude_territoriale/src/etude.tex
+LaTeX2e <2020-10-01> patch level 4
+Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
+Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-12-30 2.73 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/home/haenn/.texlive2020/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-01-07.lua" from kpse-resolved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2021-01-07.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e76c8b439581p+1
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "/home/haenn/.texlive2020/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'. L3 programming layer <2021-01-09> xparse <2020-03-03> (/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2020/11/20, 3.3: Elsevier Ltd
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2020-01-29 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count173
+\l__pdf_internal_box=\box47
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count174
+)
+\@bls=\dimen138
+ (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/haenn/.texlive2020/texmf-var/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+\c@tnote=\count183
+\c@fnote=\count184
+\c@cnote=\count185
+\c@ead=\count186
+\c@author=\count187
+\@eadauthor=\toks16
+\c@affn=\count188
+\absbox=\box48
+\elsarticlehighlightsbox=\box49
+\elsarticlegrabsbox=\box50
+\keybox=\box51
+\Columnwidth=\dimen142
+\space@left=\dimen143
+\els@boxa=\box52
+\els@boxb=\box53
+\leftMargin=\dimen144
+\@enLab=\toks17
+\@sep=\skip49
+\@@sep=\skip50
+ (../out/etude.spl) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count189
+)
+\splwrite=\write3
+
+\openout3 = etude.spl
+\appnamewidth=\dimen145
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 117.
+\l@nohyphenation=\language3
+\l@pali=\language4
+\l@spanish=\language5
+\l@sanskrit=\language6
+\l@romanian=\language7
+\l@panjabi=\language8
+\l@telugu=\language9
+\l@bengali=\language10
+\l@serbianc=\language11
+\l@afrikaans=\language12
+\l@monogreek=\language13
+\l@hindi=\language14
+\l@bulgarian=\language15
+\l@indonesian=\language16
+\l@armenian=\language17
+\l@assamese=\language18
+\l@latvian=\language19
+\l@interlingua=\language20
+\l@turkish=\language21
+\l@mongolianlmc=\language22
+\l@swedish=\language23
+\l@croatian=\language24
+\l@nynorsk=\language25
+\l@german-x-2019-04-04=\language26
+\l@basque=\language27
+\l@czech=\language28
+\l@pinyin=\language29
+\l@estonian=\language30
+\l@dutch=\language31
+\l@malayalam=\language32
+\l@mongolian=\language33
+\l@russian=\language34
+\l@gujarati=\language35
+\l@farsi=\language36
+\l@churchslavonic=\language37
+\l@ibycus=\language38
+\l@uppersorbian=\language39
+\l@irish=\language40
+\l@coptic=\language41
+\l@georgian=\language42
+\l@piedmontese=\language43
+\l@classiclatin=\language44
+\l@ancientgreek=\language45
+\l@welsh=\language46
+\l@friulan=\language47
+\l@kannada=\language48
+\l@slovak=\language49
+\l@arabic=\language50
+\l@ngerman-x-2019-04-04=\language51
+\l@ngerman=\language52
+\l@catalan=\language53
+\l@finnish=\language54
+\l@ukenglish=\language55
+\l@serbian=\language56
+\l@icelandic=\language57
+\l@liturgicallatin=\language58
+\l@tamil=\language59
+\l@latin=\language60
+\l@french=\language61
+\l@german=\language62
+\l@thai=\language63
+\l@marathi=\language64
+\l@turkmen=\language65
+\l@hungarian=\language66
+\l@greek=\language67
+\l@occitan=\language68
+\l@ukrainian=\language69
+\l@galician=\language70
+\l@belarusian=\language71
+\l@usenglishmax=\language72
+\l@portuguese=\language73
+\l@oriya=\language74
+\l@polish=\language75
+\l@swissgerman=\language76
+\l@ethiopic=\language77
+\l@slovenian=\language78
+\l@macedonian=\language79
+\l@lithuanian=\language80
+\l@bokmal=\language81
+\l@romansh=\language82
+\l@italian=\language83
+\l@danish=\language84
+\l@kurmanji=\language85
+\l@esperanto=\language86
+\babelcatcodetablenum=\catcodetable12
+\bbl@pattcodes=\catcodetable13
+)
+\babel@savecnt=\count190
+\U@D=\dimen146
+\l@babelnohyphens=\language87
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2020/10/10 v3.5l French support from the babel system
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language61) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language61) on input line 92.
+\FB@nonchar=\count191
+\FB@spacing=\attribute5
+\FB@addDPspace=\attribute6
+\FB@addGUILspace=\attribute7
+\FB@ucsNBSP=\attribute8
+\FB@dialect=\attribute9
+Package french.ldf Info: No need for active punctuation characters
+(french.ldf)             with this version of LuaTeX!
+(french.ldf)             reported on input line 254.
+\FBguill@level=\count192
+\FBold@everypar=\toks20
+\FB@Mht=\dimen147
+\mc@charclass=\count193
+\mc@charfam=\count194
+\mc@charslot=\count195
+\std@mcc=\count196
+\dec@mcc=\count197
+Inserting `frenchb.french_punctuation' at position 1 in `kerning'.
+\listindentFB=\dimen148
+\descindentFB=\dimen149
+\labelindentFB=\dimen150
+\labelwidthFB=\dimen151
+\leftmarginFB=\dimen152
+\parindentFFN=\dimen153
+\FBfnindent=\dimen154
+ (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-fr.tex UTF-8 French hyphenation patterns (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-fr.tex) (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-fr.tex)))) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip53
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen155
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen156
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen157
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks22
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks23
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks24
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box56
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
+\@cmidla=\count276
+\@cmidlb=\count277
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
+\@thisruleclass=\count278
+\@lastruleclass=\count279
+\@thisrulewidth=\dimen176
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks26
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen177
+\Hy@linkcounter=\count280
+\Hy@pagecounter=\count281
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count282
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count283
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen178
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count284
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
+with kernel methods
+)
+\Hy@abspage=\count285
+\c@Item=\count286
+\c@Hfootnote=\count287
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2020-05-15 v7.00e Hyperref driver for luaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+with kernel methods
+)
+\Fld@listcount=\count288
+\c@bookmark@seq@number=\count289
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip57
+) (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: no abbreviation of names on input line 7852.
+)
+\c@definition=\count290
+ (../out/etude.aux)
+\openout1 = etude.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count291
+\scratchdimen=\dimen181
+\scratchbox=\box57
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen182
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Info: Redefining \degres on input line 16.
+LaTeX Info: Redefining \dots on input line 16.
+LaTeX Info: Redefining \up on input line 16.
+Package hyperref Info: Link coloring OFF on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count297
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+ (../out/etude.out) (../out/etude.out)
+\@outlinefile=\write4
+
+\openout4 = etude.out
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 42.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (./parts/intro.tex) (./parts/definitions.tex
+Overfull \hbox (2.43333pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cnotenum' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@corref' on input line 13.
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./parts/sources.tex [2
+Missing character: There is no ’ (U+2019) in font ec-lmr10!
+Missing character: There is no – (U+2013) in font ec-lmr10!
+Missing character: There is no – (U+2013) in font ec-lmr10!
+Missing character: There is no – (U+2013) in font ec-lmr10!
+Missing character: There is no – (U+2013) in font ec-lmr10!
+] (./tables/niveau_vie.tex) (./tables/salaire_tp.tex)) (./parts/resultats.tex) (./parts/limites.tex) (./parts/conclusion.tex) [3] (../out/etude.aux
+Package cleveref Info: loaded `french' language definitions on input line 24.
+)
+Package rerunfilecheck Info: File `etude.out' has not changed.
+(rerunfilecheck)             Checksum: 1E0F4ACCEFB6F32749E748484774069B;1168.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 14937 strings out of 478824
+ 100000,662416 words of node,token memory allocated
+ 978 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 17 glue, 4 kern, 1 penalty, 2 glyph, 158 attribute, 58 glue_spec, 24 attribute_list, 1 write nodes
+   avail lists: 2:1517,3:208,4:16,5:429,6:41,7:7330,8:42,9:262,10:15,11:596
+ 33934 multiletter control sequences out of 65536+600000
+ 64 fonts using 5376191 bytes
+ 83i,7n,84p,772b,523s stack positions out of 5000i,500n,10000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
+Output written on etude.pdf (3 pages, 288604 bytes).
+
+PDF statistics: 162 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 131072)
+ 81 words of extra memory for PDF output out of 10000 (max. 100000000)
+
